@@ -4,31 +4,35 @@
 		<meta charset="UTF-8">
 		<title>My Elements</title>
 		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Palanquin+Dark" rel="stylesheet">
 	</head>
 	<body>
-		<header class="elemHeader">
-			
+		<header class="flexColumn temp1">
+			<h2>Elements</h2>
 		</header>
-		<section class="elemEntry">
-			<h2>WiP: periodic table</h2>
-			<p>Will enter as I learn them (roughly one day at a time), then quiz myself.</p>
-<!-- katy: add the german voc part -->
-		<form name="elementMaker" id="elemForm">
-			<p>
-				<input class="inputFields" id="elemEntry" type="text" placeholder="element"/>
-				<input class="inputFields" id="atomNoEntry" type="number" placeholder="atomic number" />
-				<input class="inputFields" id="atomMassEntry" type="number" placeholder="relative atomic mass" />
-				<input class="inputFields" id="deutsch" type="text" placeholder="deutscher Name" />
-				<br>
-				<textarea class="inputFields" id="trivia" style="height:10em; width:48.2em"></textarea><br>
-				<input id="saveBtn" type="button" value="save">
-				<input type="reset" value="reset">
-			</p>
-		</form>
-		
+		<section class="flexColumn elemEntry temp2">
+			<form name="elemForm" id="elemForm" class="temp3">
+				<div>
+					<input class="inputFields" id="elemEntry" type="text" placeholder="element"/>
+					<input class="inputFields" id="elemSymbol" type="text" placeholder="symbol"/>
+				</div>
+				<div>
+					<input class="inputFields" id="atomNoEntry" type="number" placeholder="atomic number" />
+					<input class="inputFields" id="atomMassEntry" type="number" placeholder="relative atomic mass" />
+				</div>
+				<div>
+					<input class="inputFields" id="deutsch" type="text" placeholder="deutscher Name" />
+				</div>
+				<div>
+					<textarea class="inputFields" id="trivia" style="height:10em; width:24em"></textarea>
+					<br />
+					<input id="saveBtn" type="button" value="save">
+					<input type="reset" value="reset">
+				</div>
+			</form>
 		</section>
-		<section class="elemQuiz">
-			<div class="element">
+		<section class="elemQuiz temp4">
+			<div class="flexColumn element">
 				<p class="atomicNo">No.</p>
 				<p class="atomicSymbol">Element</p>
 				<p class="atomicMass">atomic mass</p>

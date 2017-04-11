@@ -1,0 +1,27 @@
+{
+  "name": "elements",
+  "version": "1.0.0",
+  "description": "little quiz builder for me",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihatetoast/elements.git"
+  },
+  "keywords": [
+    "elements",
+    "jquery",
+    "chemistry"
+  ],
+  "author": "Katy Cassidy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihatetoast/elements/issues"
+  },
+  "homepage": "https://github.com/ihatetoast/elements#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
