@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My Elements</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="elemHeader">
+			
+		</header>
+		<section class="elemEntry">
+			<h2>WiP: periodic table</h2>
+			<p>Will enter as I learn them (roughly one day at a time), then quiz myself.</p>
+<!-- katy: add the german voc part -->
+		<form name="elementMaker" id="elemForm">
+			<p>
+				<input class="inputFields" id="elemEntry" type="text" placeholder="element"/>
+				<input class="inputFields" id="atomNoEntry" type="number" placeholder="atomic number" />
+				<input class="inputFields" id="atomMassEntry" type="number" placeholder="relative atomic mass" />
+				<input class="inputFields" id="deutsch" type="text" placeholder="deutscher Name" />
+				<br>
+				<textarea class="inputFields" id="trivia" style="height:10em; width:48.2em"></textarea><br>
+				<input id="saveBtn" type="button" value="save">
+				<input type="reset" value="reset">
+			</p>
+		</form>
+		
+		</section>
+		<section class="elemQuiz">
+			<div class="element">
+				<p class="atomicNo">No.</p>
+				<p class="atomicSymbol">Element</p>
+				<p class="atomicMass">atomic mass</p>
+			</div>
+		</section>
+			<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+			<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
