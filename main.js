@@ -1,4 +1,8 @@
 $(document ).ready(function() {
+	$('#toggleForm').on('click', () => {
+		console.log('toggle form button clicked;');
+		$('#elemForm').slideToggle('slow');
+	})
 	//change vanJS to jQ
 
 // http://small-tiyfe.herokuapp.com/collections/katyelements

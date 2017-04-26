@@ -38,6 +38,9 @@ form{
 	display:flex;
 }
 
+.toggleBtn{
+	width: 135px;
+}
 /*temporary boxes for flex */
 
 .temp1 {border: 1px solid black; background-color: #6751A5;}
@@ -45,8 +48,13 @@ form{
 .temp3 {border: 1px solid black; background-color: #56CE64;}
 .temp4 {border: 1px solid black; background-color: #FFE408;}
 
-/*periodic table*/
+/*form*/
+.elemForm {
+	display: none;
+	margin: 0 auto;
+}
 
+/*periodic table*/
 
 .element {
   align-items: center;
