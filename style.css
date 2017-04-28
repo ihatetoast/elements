@@ -70,4 +70,8 @@ form {
   font-size: 40px;
   margin: 0; }
 
+.elemStack {
+  display: flex;
+  flex-wrap: wrap; }
+
 /*# sourceMappingURL=style.css.map */
