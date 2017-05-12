@@ -10,27 +10,45 @@
 		<header class="flexColumn temp1">
 			<h2>Elements</h2>
 		</header>
-		<button class="toggleBtn" id="toggleForm">Create-element form</button>
-		<section class="flexColumn elemEntry temp2">
-			
-			<form name="elemForm" id="elemForm" class="temp3 elemForm">
-				<div>
-					<input class="inputFields" id="elemEntry" type="text" placeholder="element"/>
-					<input class="inputFields" id="elemSymbol" type="text" placeholder="symbol"/>
+		<section class="bondFormRow">
+			<div class="chemBond">
+				<div class="box h2o">
+					<div class="oxygen">
+						<div class="oxygen-copy"></div>
+						<div class="bond-1">
+							<div class="bond-curve-1"></div>
+						</div>
+						<div class="bond-2">
+							<div class="bond-curve-2"></div>
+						</div>
+					</div>
+					<div class="hydrogen-left"></div>
+					<div class="hydrogen-right"></div>
 				</div>
-				<div>
-					<input class="inputFields" id="atomNoEntry" type="number" placeholder="atomic number" />
-					<input class="inputFields" id="deutsch" type="text" placeholder="deutscher Name" />
-				</div>
-				<div>
-					<textarea class="inputFields" id="trivia" style="height:10em; width:24em"></textarea>
-					<br />
-					<input id="saveBtn" type="button" value="save">
-					<input type="reset" value="reset">
-				</div>
-			</form>
+			</div>
+			<div class="flexColumn elemEntry temp2">
+				<button class="toggleBtn" id="toggleForm">Create-element card</button>
+				<form name="elemForm" id="elemForm" class="temp3 elemForm">
+					<div>
+						<input class="inputFields" id="elemEntry" type="text" placeholder="element"/>
+						<input class="inputFields" id="elemSymbol" type="text" placeholder="symbol"/>
+					</div>
+					<div>
+						<input class="inputFields" id="atomNoEntry" type="number" placeholder="atomic number" />
+						<input class="inputFields" id="deutsch" type="text" placeholder="deutscher Name" />
+					</div>
+					<div>
+						<textarea class="inputFields" id="trivia" style="height:10em; width:24em"></textarea>
+						<br />
+						<input id="saveBtn" type="button" value="save">
+						<input type="reset" value="reset">
+					</div>
+				</form>
+			</div>
+			<div class="chemBond">
+				<div class="box nacl"></div>
+			</div>
 		</section>
-		
 		<section class="temp4">
 			<h2>Cards:</h2>
 			<div class="elemStack" id="elemStack"></div>

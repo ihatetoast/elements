@@ -1,7 +1,7 @@
 $(document ).ready(function() {
-	$('#toggleForm').on('click', () => {
-		$('#elemForm').slideToggle('slow');
-	});
+	// $('#toggleForm').on('click', () => {
+	// 	$('#elemForm').slideToggle('slow');
+	// });
 
 	$(function(){
 		//variables for string literal
